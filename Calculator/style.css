@@ -1,0 +1,74 @@
+* {
+    margin: 5px;
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Poppins';
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(156, 23, 145); 
+}
+body {
+    width: 100%; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(129, 179, 253);
+}
+.calculator {
+    border:  20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    background: pink;
+}
+input {
+    width: 320px; 
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: rgb(167, 163, 163);
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: black;
+}
+input::placeholder {
+    color: black;
+}
+button {
+    border: black;
+    width: 60px;
+    height: 60px; 
+    margin: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: transparent;
+    color: black;
+    font-size: 25px;
+    font-weight: lighter;
+    box-shadow: 7px 15px 20px rgba(0, 0, 0, 0.342), -4px -4px 18px rgba(255, 255, 255, 0.829);
+    cursor: pointer; 
+}
+.ac,.del {
+    background-color: rgba(240, 59, 46, 0.311);
+}
+.equal{
+    background-color: rgb(169, 228, 169);
+}
+.operator {
+    color: rgb(72, 91, 199); 
+    font-weight: 500;
+    background-color: rgba(160, 178, 238, 0.204);
+}
